@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    outline: none;
+    color: #212121;
+}
+html{
+    font-size: 13px;    /** 1rem */
+}
+body{
+    margin: 0;
+}
+
+ul, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin: 0;
+}
+
+dl, dt, dd{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/** 헤더 영역 S */
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
+    line-height: 1.5;
+}
+.left{
+    width: 30%;
+    font-size: 3rem;
+}
+.center{
+    width: 40%;
+    text-align: center;
+}
+.right{
+    width: 30%;
+    font-size: 3rem;
+    text-align: right;
+}
+/** 헤더 영역 E */
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-position: center;
+    padding: 12px;
+    line-height: 1.5;
+}
+
+main a img{
+    width: 100%;
+}
+
+.quick_links{
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid #ededed;
+    border-left: 0;
+    border-right: 0;
+}
+.quick_links li{
+    width: calc(100%/3);
+    height: 50px;
+    line-height: 50px;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    text-align: center;
+}
+.quick_links li:nth-of-type(1){
+    border-left: 0;
+}
+
+#bn2{
+    display: flex;
+    width: 100%;
+}
+.bn_wrap{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#bn3{
+    width: 50%;
+}
+#bn4{
+    width: 50%;
+}
+ul li a img{
+    width: 100%;
+}
